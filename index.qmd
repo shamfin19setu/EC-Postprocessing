@@ -1,5 +1,25 @@
-# Preface {.unnumbered}
+# Introduction {.unnumbered}
 
-This is a Quarto book.
+Welcome to **Eddy-Covariance Data Post-processing**, a practical workflow for processing and analysing eddy-covariance (EC) flux data after initial flux calculation.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+This resource documents a reproducible workflow for preparing EC datasets for subsequent analysis, including data import and organisation, quality control, diagnostic screening, footprint filtering, storage correction, data-coverage assessment, and preparation for gap filling and flux partitioning.
+
+## Purpose
+
+The aim is to provide a transparent, step-by-step workflow in which the processing decisions, Python code, diagnostic plots, and resulting datasets can be examined and reproduced.
+
+The workflow starts with processed EC and meteorological outputs and progressively develops a quality-controlled dataset suitable for further flux analysis.
+
+## Workflow
+
+The documentation will cover the main stages:
+
+**EddyPro output → Data preparation → Quality control → Diagnostic screening → Footprint filtering → Storage correction → Final clean dataset → Gap filling and flux partitioning**
+
+Code examples and figures are provided throughout the workflow to show both **what is done** and **why each processing step is required**.
+
+## About
+
+**Author:** Md Shamsuzzaman
+
+This resource is under active development.
