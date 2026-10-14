@@ -40,73 +40,53 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
     "objectID": "01-data-preparation.html",
     "href": "01-data-preparation.html",
-    "title": "2  Data Preparation",
+    "title": "1  Data Preparation",
     "section": "",
-    "text": "2.1 Input data\nThis chapter describes the initial preparation of eddy-covariance and meteorological data before quality control and further flux processing.\nThe workflow begins with processed eddy-covariance output and associated meteorological measurements.",
+    "text": "1.1 Input data\nThis chapter describes the initial preparation of eddy-covariance and meteorological data before quality control and further flux processing.\nThe workflow begins with processed eddy-covariance output and associated meteorological measurements.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Preparation</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Preparation</span>"
     ]
   },
   {
     "objectID": "01-data-preparation.html#importing-the-data",
     "href": "01-data-preparation.html#importing-the-data",
-    "title": "2  Data Preparation",
-    "section": "2.2 Importing the data",
-    "text": "2.2 Importing the data\nPython is used to import the dataset, inspect its structure, and prepare the variables required for subsequent processing.",
+    "title": "1  Data Preparation",
+    "section": "1.2 Importing the data",
+    "text": "1.2 Importing the data\nPython is used to import the dataset, inspect its structure, and prepare the variables required for subsequent processing.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Preparation</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Preparation</span>"
     ]
   },
   {
     "objectID": "01-data-preparation.html#time-and-date-handling",
     "href": "01-data-preparation.html#time-and-date-handling",
-    "title": "2  Data Preparation",
-    "section": "2.3 Time and date handling",
-    "text": "2.3 Time and date handling\nTimestamps are checked and converted to a consistent datetime format before constructing the working time series.",
+    "title": "1  Data Preparation",
+    "section": "1.3 Time and date handling",
+    "text": "1.3 Time and date handling\nTimestamps are checked and converted to a consistent datetime format before constructing the working time series.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Preparation</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Preparation</span>"
     ]
   },
   {
     "objectID": "01-data-preparation.html#initial-data-checks",
     "href": "01-data-preparation.html#initial-data-checks",
-    "title": "2  Data Preparation",
-    "section": "2.4 Initial data checks",
-    "text": "2.4 Initial data checks\nBefore filtering, the dataset is examined for:\n\nmissing observations\nduplicated timestamps\nunexpected values\nvariable names and units\ntemporal coverage\n\nThese checks provide the starting point for the quality-control procedures described in the following chapters.",
+    "title": "1  Data Preparation",
+    "section": "1.4 Initial data checks",
+    "text": "1.4 Initial data checks\nBefore filtering, the dataset is examined for:\n\nmissing observations\nduplicated timestamps\nunexpected values\nvariable names and units\ntemporal coverage\n\nThese checks provide the starting point for the quality-control procedures described in the following chapters.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Data Preparation</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Data Preparation</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  Summary",
+    "title": "2  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
     ]
   }
 ]
