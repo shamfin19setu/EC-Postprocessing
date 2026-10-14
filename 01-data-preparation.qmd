@@ -1,0 +1,27 @@
+# Data Preparation
+
+This chapter describes the initial preparation of eddy-covariance and meteorological data before quality control and further flux processing.
+
+## Input data
+
+The workflow begins with processed eddy-covariance output and associated meteorological measurements.
+
+## Importing the data
+
+Python is used to import the dataset, inspect its structure, and prepare the variables required for subsequent processing.
+
+## Time and date handling
+
+Timestamps are checked and converted to a consistent datetime format before constructing the working time series.
+
+## Initial data checks
+
+Before filtering, the dataset is examined for:
+
+- missing observations
+- duplicated timestamps
+- unexpected values
+- variable names and units
+- temporal coverage
+
+These checks provide the starting point for the quality-control procedures described in the following chapters.
