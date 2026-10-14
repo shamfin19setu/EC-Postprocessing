@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Eddy-Covariance Data Post-processing"
+  author: "Norah Jones"
+  date: "14/10/2026"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
